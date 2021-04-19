@@ -2,15 +2,16 @@ spring:
   application:
     name: spring-config-server
   profiles:
-    active: local,development,production
+    active: local,dev,prod,qa
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/ijayakantha/spring-config-server
-          search-paths: server-config/
+          uri: https://github.com/abhi020290/spring-boot-config-server
+          search-paths: config-files/payment/
 server:
-  port: 8888
+  port: 9090
+
 management:
   security:
     enabled: false
