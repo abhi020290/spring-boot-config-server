@@ -1,0 +1,2 @@
+config:
+  message: This order message is from git properties ENV PROD

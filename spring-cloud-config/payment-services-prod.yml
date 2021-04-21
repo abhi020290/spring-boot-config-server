@@ -1,0 +1,2 @@
+config:
+  message: This payment message is from git properties - ENV Prod

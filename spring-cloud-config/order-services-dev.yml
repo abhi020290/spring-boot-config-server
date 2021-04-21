@@ -1,0 +1,2 @@
+config:
+  message: This is new order message is from git properties ENV DEV

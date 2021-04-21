@@ -1,0 +1,19 @@
+config:
+    message: This order message is from internal properties
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+    security:
+        enabled: false
+server:
+    port: 8081
+spring:
+    application:
+        name: order-services
+    cloud:
+        config:
+            uri: http://localhost:8888
+    profiles:
+        active: dev

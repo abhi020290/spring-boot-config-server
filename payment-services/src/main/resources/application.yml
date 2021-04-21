@@ -1,0 +1,28 @@
+config:
+    message: This order message is from internal properties
+
+management:
+    endpoints:
+        web:
+          exposure:
+            include: "*"
+    security:
+        enabled: false
+
+server:
+    port: 8080
+
+spring:
+    application:
+        name: payment-services
+    cloud:
+        #bootstrap:
+           # enabled: 'true'
+        config:
+            #name: payment-services
+            uri: http://localhost:8888
+    #config:
+        #use-legacy-processing: true
+        #import: "optional:configserver:http://localhost:8888"
+    profiles:
+        active: dev

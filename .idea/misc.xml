@@ -29,7 +29,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/spring-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-config-client/pom.xml" />
       </list>
     </option>

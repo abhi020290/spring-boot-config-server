@@ -19,11 +19,19 @@ public class SpringConfigClientApplication {
 @RestController
 class MessageRestController {
 
-	@Value("${greetings.message:Unable to connect to config server}")
-	private String data;
+	@Value("${server.url:Unable to connect to config server}")
+	private String url;
+
+	@Value("${message.greetings}")
+	String message;
+
+	@RequestMapping("/server/url")
+	String getMsg() {
+		return this.url;
+	}
 
 	@RequestMapping("/message")
-	String getMsg() {
-		return this.data;
+	String getMessage() {
+		return this.message;
 	}
 }
