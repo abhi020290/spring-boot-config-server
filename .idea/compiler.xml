@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-config-client" />
+        <module name="spring-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
