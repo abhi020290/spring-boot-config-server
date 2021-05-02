@@ -6,6 +6,6 @@ spring:
         config:
             server:
                 git:
-                    uri: C:/myworkspace/spring-cloud-config
+                    uri: E:/myworkspace/spring-cloud-config
     profiles:
         active: dev
