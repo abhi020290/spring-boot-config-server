@@ -31,6 +31,8 @@
       <list>
         <option value="$PROJECT_DIR$/spring-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/payment-services/pom.xml" />
+        <option value="$PROJECT_DIR$/order-services/pom.xml" />
       </list>
     </option>
   </component>

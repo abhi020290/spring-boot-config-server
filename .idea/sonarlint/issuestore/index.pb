@@ -5,3 +5,7 @@ L
 spring-config-client/pom.xml,4\5\458634d14ed0ceed3159807e7d530e0084101249
 L
 spring-config-server/pom.xml,c\d\cdccd58a1bbd12037471125a5cdc284f9192c75e
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+T
+$cloud-config/order-services-prod.yml,3\0\30b0c75c391de44d2ab3bd805e716ce405c93152
