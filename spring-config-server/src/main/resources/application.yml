@@ -6,7 +6,7 @@ spring:
         config:
             server:
                 git:
-                    uri: E:/myworkspace/spring-boot-config-server
-                    searchPaths: cloud-config
+                    uri: E:/myworkspace/spring-boot-config-server/cloud-config.git
+                  #  searchPaths: cloud-config
     profiles:
         active: dev
