@@ -2,4 +2,6 @@
 spring-boot-config-server
 
 #Refresh 
-http://localhost:8888/refresh POST API
+http://localhost:8888/actuator/refresh POST API
+
+config should be git repository
